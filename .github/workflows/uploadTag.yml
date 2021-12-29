@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        repository: organization_name/repo_name
+        repository: AnTonhoLAB/Podspecs
         token: ${{ secrets.ACCESS_TOKEN }}
     - name: Upload tag
       run: pod repo push GGDevelopmentKit GGDevelopmentKit.podspec --allow-warnings
