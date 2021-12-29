@@ -11,5 +11,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run tests
       run: xcodebuild clean test -project GGDevelopmentKit.xcodeproj -scheme GGDevelopmentKit -destination "platform=iOS Simulator,name=iPhone 12 Pro,OS=latest"
+        #- name: AddRepo
+        #run: pod repo add GGDevelopmentKit ssh://AnTonhoLAB@github.com/AnTonhoLAB/Podspecs.git
     - name: Upload tag
-      run: pod repo push GGDevelopmentKit GGDevelopmentKit.podspec --allow-warnings 
+      run: pod repo push GGDevelopmentKit GGDevelopmentKit.podspec --allow-warnings
