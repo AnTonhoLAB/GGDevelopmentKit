@@ -50,16 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F37B77F25F0966900523E28"
-            BuildableName = "Run.app"
-            BlueprintName = "Run"
-            ReferencedContainer = "container:GGDevelopmentKit.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
