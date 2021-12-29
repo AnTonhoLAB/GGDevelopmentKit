@@ -29,7 +29,7 @@ public protocol Coordinating: class {
 
     ///    Tells the coordinator to start, which means at the end of this method it should
     ///    display some UIViewController.
-    func start(with completion: @escaping () -> Void)
+    func start()
 
     ///    Tells the coordinator to stop, which means it should clear out any internal stuff
     ///    it possibly tracks.

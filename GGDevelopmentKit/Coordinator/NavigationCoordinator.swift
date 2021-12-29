@@ -7,7 +7,7 @@
 //
 import UIKit
 
-open class NavigationCoordinator: Coordinator<UINavigationController>, UINavigationControllerDelegate {
+open class NavigationCoordinator: GGBaseCoordinator<UINavigationController>, UINavigationControllerDelegate {
     //    References to actual UIViewControllers managed by this Coordinator instance.
     open var viewControllers: [UIViewController] = []
 
@@ -111,11 +111,11 @@ open class NavigationCoordinator: Coordinator<UINavigationController>, UINavigat
 
 
     //    MARK:- Coordinator lifecycle
-    open override func start(with completion: @escaping () -> Void) {
+    open override func start() {
         //    assign itself as UINavigationControllerDelegate
         rootViewController.delegate = self
         //    must call this
-        super.start(with: completion)
+        super.start()
     }
 
     open override func stop(with completion: @escaping () -> Void) {

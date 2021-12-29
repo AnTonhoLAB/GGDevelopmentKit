@@ -37,7 +37,10 @@ Expose to Coordinator only those behaviors that cause push/pop/present to bubble
 
 
 ///    Main Coordinator instance, where T is UIViewController or any of its subclasses.
-open class Coordinator<T: UIViewController>: UIResponder, Coordinating {
+
+public typealias GGCoordinator = GGBaseCoordinator<UIViewController>
+
+open class GGBaseCoordinator<T: UIViewController>: UIResponder, Coordinating {
     public let rootViewController: T
 
 
@@ -85,10 +88,9 @@ open class Coordinator<T: UIViewController>: UIResponder, Coordinating {
     ///    - Parameter completion: An optional `Callback` executed at the end.
     ///
     ///    Note: if you override this method, you must call `super` and pass the `completion` closure.
-    open func start(with completion: @escaping () -> Void = {}) {
+    open func start() {
         rootViewController.parentCoordinator = self
         isStarted = true
-        completion()
     }
 
     /// Tells the coordinator that it is done and that it should
@@ -145,7 +147,7 @@ open class Coordinator<T: UIViewController>: UIResponder, Coordinating {
     public func startChild(coordinator: Coordinating, completion: @escaping () -> Void = {}) {
         childCoordinators[coordinator.identifier] = coordinator
         coordinator.parent = self
-        coordinator.start(with: completion)
+        coordinator.start()
     }
 
 

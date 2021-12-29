@@ -19,13 +19,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         window.frame = UIScreen.main.bounds
         
-        let viewController = MainViewController()
+        let navigationController = UINavigationController()
+        let appCoordinator = MainCoordinator(rootViewController: navigationController)
         
-        window.rootViewController = viewController
+        window.rootViewController = appCoordinator.rootViewController
+        appCoordinator.start()
         window.makeKeyAndVisible()
         
         self.window = window
     }
 
 }
-
