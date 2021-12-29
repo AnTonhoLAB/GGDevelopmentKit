@@ -8,9 +8,8 @@ jobs:
   uploadTag:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        repository: AnTonhoLAB/Podspecs
-        token: ${{ secrets.ACCESS_TOKEN }}
-    - name: Upload tag
-      run: pod repo push GGDevelopmentKit GGDevelopmentKit.podspec --allow-warnings
+    - uses: actions/checkout@v2}
+    - name: pod repo push
+        uses: maxep/pod-repo-push-action@0.1.2
+        with:
+        repo-url: https://AnTonhoLAB:${{ secrets.ACCESS_TOKEN }}@github.com/AnTonhoLAB/Podspecs.git
