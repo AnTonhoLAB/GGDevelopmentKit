@@ -2,14 +2,14 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '10.0'
   spec.name         = "GGDevelopmentKit"
-  spec.version      = "0.0.5-rc10"
+  spec.version      = "0.1.0"
   spec.module_name  = 'GGDevelopmentKit'
   spec.summary      = "All essential code for my applications"
 
 
   spec.homepage     = "https://github.com/AnTonhoLAB"
   spec.license      = "MIT"
-  spec.author             = { "George Gomes" => "georgevag@protonmail.com" }
+  spec.author       = { "George Gomes" => "georgevag@protonmail.com" }
  
 
   spec.source       = { :git => "https://github.com/AnTonhoLAB/GGDevelopmentKit.git", :tag => "#{spec.version}" }
