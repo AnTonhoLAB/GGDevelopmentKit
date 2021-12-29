@@ -16,5 +16,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run tests
-      run: xcodebuild clean test -project GGDevelopmentKit.xcodeproj -scheme GGDevelopmentKitTests -destination "platform=iOS Simulator,name=iPhone 12 Pro,OS=latest"
+      run: xcodebuild clean test -project GGDevelopmentKit.xcodeproj -scheme GGDevelopmentKit -destination "platform=iOS Simulator,name=iPhone 12 Pro,OS=latest"
       
