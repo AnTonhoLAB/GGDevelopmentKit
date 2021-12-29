@@ -1,11 +1,3 @@
-//
-//  CHANGELOG.md
-//  GGDevelopmentKit
-//
-//  Created by George Vilnei Arboite Gomes on 28/12/21.
-//  Copyright © 2021 George Gomes. All rights reserved.
-//
-
 # Change Log
 All notable changes to this project will be documented in this file.
 
