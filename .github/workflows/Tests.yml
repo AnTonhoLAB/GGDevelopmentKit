@@ -1,0 +1,21 @@
+name: Swift
+
+on:
+  push:
+    branches: 
+      - master
+  pull_request:
+    branches:
+      - master 
+
+jobs:
+  test:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run tests
+      run: xcodebuild clean test -project GGDevelopmentKit.xcodeproj -scheme GGDevelopmentKit -destination "platform=iOS Simulator,name=iPhone 12 Pro,OS=latest" --enableCodeCoverage
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1.2.1
