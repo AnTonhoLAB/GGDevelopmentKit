@@ -1,5 +1,4 @@
-name: Swift
-
+name: Tests
 on:
   push:
     branches: 

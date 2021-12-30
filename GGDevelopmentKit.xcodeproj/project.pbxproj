@@ -25,6 +25,7 @@
 		3FE68D25277BE6A400C2B171 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D24277BE6A400C2B171 /* Navigation.swift */; };
 		3FE68D2D277BEAF300C2B171 /* GGDevelopmentKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */; };
 		3FE68D4D277BECD200C2B171 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE68D4C277BECD200C2B171 /* CHANGELOG.md */; };
+		3FE68D7B277E33AE00C2B171 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D7A277E33AE00C2B171 /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		3FE68D24277BE6A400C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GGDevelopmentKit.podspec; sourceTree = "<group>"; };
 		3FE68D4C277BECD200C2B171 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		3FE68D7A277E33AE00C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		3F37B76F25F0952500523E28 /* GGDevelopmentKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				3FE68D77277E338400C2B171 /* Navigation */,
 				3F37B77025F0952500523E28 /* GGDevelopmentKitTests.swift */,
 				3F37B77225F0952500523E28 /* Info.plist */,
 			);
@@ -214,6 +217,14 @@
 				3F37B78425F0966900523E28 /* SceneDelegate.swift */,
 			);
 			path = Sup;
+			sourceTree = "<group>";
+		};
+		3FE68D77277E338400C2B171 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3FE68D7A277E33AE00C2B171 /* Navigation.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F37B77125F0952500523E28 /* GGDevelopmentKitTests.swift in Sources */,
+				3FE68D7B277E33AE00C2B171 /* Navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
