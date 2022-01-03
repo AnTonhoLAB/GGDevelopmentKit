@@ -8,26 +8,51 @@
 
 import XCTest
 
+@testable import GGDevelopmentKit
+
 class CoordinatorTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    var navigationController: UINavigationController!
+    var appCoordinator: MockCoordinator!
+    
+    override func tearDown() {
+        self.navigationController = nil
+        self.appCoordinator = nil
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+  
+    override func setUp() {
+        super.setUp()
+        
+        navigationController = UINavigationController()
+        appCoordinator = MockCoordinator(rootViewController: navigationController)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testNavigationRoute() {
+        appCoordinator.start()
+        XCTAssertEqual(appCoordinator.rootViewController, navigationController)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testGetInfo() {
+        
     }
+}
 
+final class MockCoordinatorViewController: GGCoordinator {
+    
+}
+
+class MockCoordinator: GGCoordinator {
+    
+    init(rootViewController: UIViewController) {
+        super.init(rootViewController: rootViewController)
+    }
+    
+    override func start() {
+        let vc = MockViewController()
+        rootViewController.addChild(vc)
+    }
+}
+
+class MockViewController: UIViewController {
+    
 }
