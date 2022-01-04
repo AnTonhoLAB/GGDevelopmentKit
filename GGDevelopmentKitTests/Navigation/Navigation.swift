@@ -31,7 +31,7 @@ class NavigationTests: XCTestCase {
         XCTAssertEqual(navigation.info as? String, "information")
     }
     
-    func testGetIngo() {
+    func testGetInfo() {
         let info: String = navigation.getInfo() ?? ""
         XCTAssertEqual(info, "information")
     }
