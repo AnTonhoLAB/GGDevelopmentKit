@@ -31,8 +31,8 @@ class NavigationTests: XCTestCase {
         XCTAssertEqual(navigation.info as? String, "information")
     }
     
-    func testGetInfo() {
-        let info: String = navigation.getInfo() ?? ""
+    func testGetInfo() throws {
+        let info: String = try XCTUnwrap(navigation.getInfo())
         XCTAssertEqual(info, "information")
     }
 }
