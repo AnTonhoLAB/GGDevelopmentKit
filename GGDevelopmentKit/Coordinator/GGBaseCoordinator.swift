@@ -38,8 +38,6 @@ Expose to Coordinator only those behaviors that cause push/pop/present to bubble
 
 ///    Main Coordinator instance, where T is UIViewController or any of its subclasses.
 
-public typealias GGCoordinator = GGBaseCoordinator<UIViewController>
-
 open class GGBaseCoordinator<T: UIViewController>: UIResponder, Coordinating {
     public let rootViewController: T
 

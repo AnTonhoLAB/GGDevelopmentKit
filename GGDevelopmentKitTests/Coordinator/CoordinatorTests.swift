@@ -43,7 +43,7 @@ final class MockCoordinatorViewController: GGCoordinator {
 
 class MockCoordinator: GGCoordinator {
     
-    init(rootViewController: UIViewController) {
+    init(rootViewController: UINavigationController) {
         super.init(rootViewController: rootViewController)
     }
     
