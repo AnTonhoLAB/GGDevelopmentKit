@@ -32,8 +32,74 @@ class CoordinatorTests: XCTestCase {
         XCTAssertEqual(appCoordinator.rootViewController, navigationController)
     }
     
-    func testGetInfo() {
+    // test if is vc correct type to show after start coordinator
+    func testVCShown() throws {
+        appCoordinator.start()
+        let last = try XCTUnwrap(appCoordinator.viewControllers.last)
+        XCTAssertTrue(last is MockViewController)
+    }
+    
+    func testVCShowBoth() throws {
+        appCoordinator.start()
+        appCoordinator.addOther()
+        let last = try XCTUnwrap(appCoordinator.viewControllers.last)
+        XCTAssertTrue(last is SecondaryMockViewController)
+    }
+    
+    func testVCShowBothCounter() {
+        appCoordinator.start()
+        appCoordinator.addOther()
+        XCTAssertEqual(appCoordinator.viewControllers.count, 2)
+    }
+    
+    func testReplaceWithoutFirst() throws {
+        appCoordinator.replaceOther()
+        let last = try XCTUnwrap(appCoordinator.viewControllers.last)
+        XCTAssertTrue(last is SecondaryMockViewController)
+    }
+    
+    func testViewControllerCountWhenTop() {
+        appCoordinator.start()
+        appCoordinator.replaceOther()
+        XCTAssertEqual(appCoordinator.viewControllers.count, 1)
+    }
+    
+    func testReplaceTopVC() throws {
+        appCoordinator.start()
+        appCoordinator.replaceOther()
         
+        let last = try XCTUnwrap(appCoordinator.viewControllers.last)
+        XCTAssertTrue(last is SecondaryMockViewController)
+    }
+    
+    func testPop() throws {
+        appCoordinator.start()
+        appCoordinator.addOther()
+        appCoordinator.popNavigation()
+        
+        let last = try XCTUnwrap(appCoordinator.viewControllers.last)
+        XCTAssertTrue(last is MockViewController)
+    }
+    
+    func testPopCounter() {
+        appCoordinator.start()
+        appCoordinator.addOther()
+        appCoordinator.popNavigation()
+        
+        XCTAssertEqual(appCoordinator.viewControllers.count, 1)
+    }
+    
+    func testPopWith0() throws {
+        appCoordinator.start()
+        appCoordinator.popNavigation()
+        let last = try XCTUnwrap(appCoordinator.viewControllers.last)
+        XCTAssertTrue(last is MockViewController)
+    }
+    
+    func testPopWith0Counter() {
+        appCoordinator.start()
+        appCoordinator.popNavigation()
+        XCTAssertEqual(appCoordinator.viewControllers.count, 1)
     }
 }
 
@@ -48,11 +114,29 @@ class MockCoordinator: GGCoordinator {
     }
     
     override func start() {
+        super.start()
         let vc = MockViewController()
-        rootViewController.addChild(vc)
+        show(vc)
+    }
+    
+    func addOther() {
+        show(SecondaryMockViewController())
+    }
+    
+    func replaceOther() {
+        let vc = SecondaryMockViewController()
+        top(vc)
+    }
+    
+    func popNavigation() {
+        pop()
     }
 }
 
 class MockViewController: UIViewController {
+    
+}
+
+class SecondaryMockViewController: UIViewController {
     
 }
