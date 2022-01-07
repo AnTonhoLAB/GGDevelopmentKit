@@ -11,12 +11,12 @@ import GGDevelopmentKit
 
 class MainCoordinator: GGCoordinator {
     
-    init(rootViewController: UIViewController) {
+    init(rootViewController: UINavigationController) {
         super.init(rootViewController: rootViewController)
     }
     
     override func start() {
         let vc = MainViewController()
-        rootViewController.addChild(vc)
+        show(vc)
     }
 }

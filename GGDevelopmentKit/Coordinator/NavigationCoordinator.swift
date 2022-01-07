@@ -7,6 +7,8 @@
 //
 import UIKit
 
+public typealias GGCoordinator = NavigationCoordinator
+
 open class NavigationCoordinator: GGBaseCoordinator<UINavigationController>, UINavigationControllerDelegate {
     //    References to actual UIViewControllers managed by this Coordinator instance.
     open var viewControllers: [UIViewController] = []
