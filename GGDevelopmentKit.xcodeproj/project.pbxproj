@@ -16,6 +16,7 @@
 		3F37B78C25F0966D00523E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F37B78B25F0966D00523E28 /* Assets.xcassets */; };
 		3F37B78F25F0966D00523E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F37B78D25F0966D00523E28 /* LaunchScreen.storyboard */; };
 		3F37B79525F0B5DA00523E28 /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37B79425F0B5DA00523E28 /* Coordinating.swift */; };
+		3F3C6FD52788C83400628BC5 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C6FD42788C83400628BC5 /* ErrorTracker.swift */; };
 		3F45051C2787F77F007874FF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45051B2787F77F007874FF /* ActivityIndicator.swift */; };
 		3F62A20D277F9D0C002A6C5C /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62A20C277F9D0C002A6C5C /* CoordinatorTests.swift */; };
 		3FA9E51C25F422E70020FE11 /* GGBaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E51B25F422E70020FE11 /* GGBaseCoordinator.swift */; };
@@ -81,6 +82,7 @@
 		3F37B78E25F0966D00523E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F37B79025F0966D00523E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F37B79425F0B5DA00523E28 /* Coordinating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
+		3F3C6FD42788C83400628BC5 /* ErrorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
 		3F45051B2787F77F007874FF /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		3F62A20C277F9D0C002A6C5C /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
 		3FA9E51B25F422E70020FE11 /* GGBaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGBaseCoordinator.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				3F45051B2787F77F007874FF /* ActivityIndicator.swift */,
+				3F3C6FD42788C83400628BC5 /* ErrorTracker.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -541,6 +544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C6FD52788C83400628BC5 /* ErrorTracker.swift in Sources */,
 				3FA9E51C25F422E70020FE11 /* GGBaseCoordinator.swift in Sources */,
 				3FA9E52125F423340020FE11 /* UIKit-CoordinatingExtensions.swift in Sources */,
 				3FE68D25277BE6A400C2B171 /* Navigation.swift in Sources */,
