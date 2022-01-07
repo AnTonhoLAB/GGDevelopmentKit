@@ -159,8 +159,7 @@
 			children = (
 				3F37B76525F0952400523E28 /* GGDevelopmentKit.h */,
 				3F37B76625F0952400523E28 /* Info.plist */,
-				3F849FE825F0B73200C7DDE7 /* Coordinator */,
-				3F4505162787F74C007874FF /* Rx */,
+				3F3C6F202788089300628BC5 /* Sources */,
 			);
 			path = GGDevelopmentKit;
 			sourceTree = "<group>";
@@ -185,6 +184,15 @@
 				3F37B79025F0966D00523E28 /* Info.plist */,
 			);
 			path = Run;
+			sourceTree = "<group>";
+		};
+		3F3C6F202788089300628BC5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3F849FE825F0B73200C7DDE7 /* Coordinator */,
+				3F4505162787F74C007874FF /* Rx */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		3F4505162787F74C007874FF /* Rx */ = {
