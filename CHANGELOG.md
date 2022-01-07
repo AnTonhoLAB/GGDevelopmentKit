@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.3.2](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.3.2) - 2022-01-07
+### Fix
+- ErrorTracker - Turn ErrorTracker init public
+
 ## [0.3.1](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.3.1) - 2022-01-07
 ### Fix
 - ErrorTracker - Turn ErrorTracker public
