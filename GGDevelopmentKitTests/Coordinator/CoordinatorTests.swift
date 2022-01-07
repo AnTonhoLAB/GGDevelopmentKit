@@ -103,10 +103,6 @@ class CoordinatorTests: XCTestCase {
     }
 }
 
-final class MockCoordinatorViewController: GGCoordinator {
-    
-}
-
 class MockCoordinator: GGCoordinator {
     
     init(rootViewController: UINavigationController) {
