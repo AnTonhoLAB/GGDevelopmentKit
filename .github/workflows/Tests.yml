@@ -14,7 +14,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Credentials
+      run: |
+        git config --global credential.helper store
+        echo "https://AnTonhoLAB:${{ secrets.ACCESS_TOKEN }}@github.com" > ~/.git-credentials
+    - name: Pod Install
+      run: pod install
     - name: Run tests
-      run: xcodebuild clean test -project GGDevelopmentKit.xcodeproj -scheme GGDevelopmentKit -destination "platform=iOS Simulator,name=iPhone 12 Pro,OS=latest"
+      run: xcodebuild clean test -workspace GGDevelopmentKit.xcworkspace -scheme GGDevelopmentKit -destination "platform=iOS Simulator,name=iPhone 12 Pro,OS=latest"
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1.2.1

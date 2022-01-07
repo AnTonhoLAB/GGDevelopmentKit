@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '10.0'
   spec.name         = "GGDevelopmentKit"
-  spec.version      = "0.1.1"
+  spec.version      = "0.2.0"
   spec.module_name  = 'GGDevelopmentKit'
   spec.summary      = "All essential code for my applications"
 
@@ -15,6 +15,10 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/AnTonhoLAB/GGDevelopmentKit.git", :tag => "#{spec.version}" }
 
   spec.framework = "UIKit"
+
+  spec.dependency 'RxSwift'
+  spec.dependency 'RxCocoa'
+  
   spec.source_files = ["#{spec.module_name}/Coordinator/**/*.{swift}"]
   # spec.source_files  = 'Classes/*.{h,m}'
 end
