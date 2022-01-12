@@ -24,11 +24,14 @@
 		3FA9E52125F423340020FE11 /* UIKit-CoordinatingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E52025F423340020FE11 /* UIKit-CoordinatingExtensions.swift */; };
 		3FA9E52325F423B10020FE11 /* GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */; };
 		3FA9E52425F423B10020FE11 /* GGDevelopmentKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FB53CD6278CA70500802D19 /* GGPaginationSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB53CD5278CA70500802D19 /* GGPaginationSupport.swift */; };
 		3FE68D1F277BE2D900C2B171 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D1E277BE2D900C2B171 /* MainCoordinator.swift */; };
 		3FE68D25277BE6A400C2B171 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D24277BE6A400C2B171 /* Navigation.swift */; };
 		3FE68D2D277BEAF300C2B171 /* GGDevelopmentKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */; };
 		3FE68D4D277BECD200C2B171 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE68D4C277BECD200C2B171 /* CHANGELOG.md */; };
 		3FE68D7B277E33AE00C2B171 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D7A277E33AE00C2B171 /* Navigation.swift */; };
+		3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */; };
+		3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */; };
 		669F1E16427316450629024B /* Pods_GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68FF80CDA7B03C79AE11CE5 /* Pods_GGDevelopmentKit.framework */; };
 		C3695CCA984883D0D76A8D14 /* Pods_Run.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7FC83E5D3BCD1A856BC5D8 /* Pods_Run.framework */; };
 		C8CCA625AF20018BBA03E8E2 /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6FBFEEFF8D516764DA26FD /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework */; };
@@ -88,11 +91,14 @@
 		3FA9E51B25F422E70020FE11 /* GGBaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGBaseCoordinator.swift; sourceTree = "<group>"; };
 		3FA9E51D25F423130020FE11 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		3FA9E52025F423340020FE11 /* UIKit-CoordinatingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit-CoordinatingExtensions.swift"; sourceTree = "<group>"; };
+		3FB53CD5278CA70500802D19 /* GGPaginationSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGPaginationSupport.swift; sourceTree = "<group>"; };
 		3FE68D1E277BE2D900C2B171 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		3FE68D24277BE6A400C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GGDevelopmentKit.podspec; sourceTree = "<group>"; };
 		3FE68D4C277BECD200C2B171 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		3FE68D7A277E33AE00C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+UICollectionView.swift"; sourceTree = "<group>"; };
+		3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedSequence+Ext.swift"; sourceTree = "<group>"; };
 		4E989043EC298397CC0F8E6E /* Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit-GGDevelopmentKitTests/Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F6FBFEEFF8D516764DA26FD /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		817CCCD6777962549232DF12 /* Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit-GGDevelopmentKitTests/Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				3F849FE825F0B73200C7DDE7 /* Coordinator */,
+				3FB53CD2278CA68400802D19 /* Pagination */,
 				3F4505162787F74C007874FF /* Rx */,
 			);
 			path = Sources;
@@ -202,6 +209,8 @@
 			children = (
 				3F45051B2787F77F007874FF /* ActivityIndicator.swift */,
 				3F3C6FD42788C83400628BC5 /* ErrorTracker.swift */,
+				3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */,
+				3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -234,6 +243,14 @@
 				FF7FC83E5D3BCD1A856BC5D8 /* Pods_Run.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FB53CD2278CA68400802D19 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				3FB53CD5278CA70500802D19 /* GGPaginationSupport.swift */,
+			);
+			path = Pagination;
 			sourceTree = "<group>";
 		};
 		3FE68D13277BDF1100C2B171 /* Resources */ = {
@@ -545,10 +562,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3C6FD52788C83400628BC5 /* ErrorTracker.swift in Sources */,
+				3FB53CD6278CA70500802D19 /* GGPaginationSupport.swift in Sources */,
 				3FA9E51C25F422E70020FE11 /* GGBaseCoordinator.swift in Sources */,
 				3FA9E52125F423340020FE11 /* UIKit-CoordinatingExtensions.swift in Sources */,
+				3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */,
 				3FE68D25277BE6A400C2B171 /* Navigation.swift in Sources */,
 				3FA9E51E25F423130020FE11 /* NavigationCoordinator.swift in Sources */,
+				3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */,
 				3F45051C2787F77F007874FF /* ActivityIndicator.swift in Sources */,
 				3F37B79525F0B5DA00523E28 /* Coordinating.swift in Sources */,
 			);
