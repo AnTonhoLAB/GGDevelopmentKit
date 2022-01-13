@@ -8,7 +8,11 @@
 
 import Foundation
 
-public class Navigation<Destination: Hashable> {
+public class Navigation<Destination: Hashable>: Equatable {
+    public static func == (lhs: Navigation<Destination>, rhs: Navigation<Destination>) -> Bool {
+        return lhs.type == rhs.type
+    }
+    
     public var type: Destination
     public var info: Any?
 

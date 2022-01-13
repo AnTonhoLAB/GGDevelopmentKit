@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.4.1](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.4.1) - 2022-01-13
+### Fix
+- Navigation - Add equatable to fix tests 
+
 ## [0.4.0](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.4.0) - 2022-01-12
 ### Added
 - GGPaginationSupport - Add pagination support to help collectionView/tableView pagination
