@@ -30,6 +30,10 @@
 		3FE68D2D277BEAF300C2B171 /* GGDevelopmentKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */; };
 		3FE68D4D277BECD200C2B171 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE68D4C277BECD200C2B171 /* CHANGELOG.md */; };
 		3FE68D7B277E33AE00C2B171 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D7A277E33AE00C2B171 /* Navigation.swift */; };
+		3FEB5AA02798EE4700734C8D /* ViewCoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5A9F2798EE4700734C8D /* ViewCoded.swift */; };
+		3FEB5AB62798F03100734C8D /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5AB52798F03100734C8D /* Double+Ext.swift */; };
+		3FEB5AD82798F0D200734C8D /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5AD72798F0D200734C8D /* Observable+Ext.swift */; };
+		3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */; };
 		3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */; };
 		3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */; };
 		669F1E16427316450629024B /* Pods_GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68FF80CDA7B03C79AE11CE5 /* Pods_GGDevelopmentKit.framework */; };
@@ -97,6 +101,10 @@
 		3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GGDevelopmentKit.podspec; sourceTree = "<group>"; };
 		3FE68D4C277BECD200C2B171 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		3FE68D7A277E33AE00C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		3FEB5A9F2798EE4700734C8D /* ViewCoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoded.swift; sourceTree = "<group>"; };
+		3FEB5AB52798F03100734C8D /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+		3FEB5AD72798F0D200734C8D /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGSimpleBarChart.swift; sourceTree = "<group>"; };
 		3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+UICollectionView.swift"; sourceTree = "<group>"; };
 		3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedSequence+Ext.swift"; sourceTree = "<group>"; };
 		4E989043EC298397CC0F8E6E /* Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit-GGDevelopmentKitTests/Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +205,9 @@
 		3F3C6F202788089300628BC5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3FEB5B022798F82900734C8D /* Charts */,
+				3FEB5AB42798F01B00734C8D /* Extenssions */,
+				3FEB5A9C2798EE2400734C8D /* Protocols */,
 				3F849FE825F0B73200C7DDE7 /* Coordinator */,
 				3FB53CD2278CA68400802D19 /* Pagination */,
 				3F4505162787F74C007874FF /* Rx */,
@@ -207,10 +218,10 @@
 		3F4505162787F74C007874FF /* Rx */ = {
 			isa = PBXGroup;
 			children = (
+				3FEB5AEA2798F14D00734C8D /* Extensions */,
 				3F45051B2787F77F007874FF /* ActivityIndicator.swift */,
 				3F3C6FD42788C83400628BC5 /* ErrorTracker.swift */,
 				3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */,
-				3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -294,6 +305,39 @@
 				3FE68D7A277E33AE00C2B171 /* Navigation.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3FEB5A9C2798EE2400734C8D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB5A9F2798EE4700734C8D /* ViewCoded.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3FEB5AB42798F01B00734C8D /* Extenssions */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB5AB52798F03100734C8D /* Double+Ext.swift */,
+			);
+			path = Extenssions;
+			sourceTree = "<group>";
+		};
+		3FEB5AEA2798F14D00734C8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */,
+				3FEB5AD72798F0D200734C8D /* Observable+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3FEB5B022798F82900734C8D /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 		FA529AF5C775113BF05CEA1B /* Pods */ = {
@@ -563,12 +607,16 @@
 			files = (
 				3F3C6FD52788C83400628BC5 /* ErrorTracker.swift in Sources */,
 				3FB53CD6278CA70500802D19 /* GGPaginationSupport.swift in Sources */,
+				3FEB5AB62798F03100734C8D /* Double+Ext.swift in Sources */,
+				3FEB5AD82798F0D200734C8D /* Observable+Ext.swift in Sources */,
 				3FA9E51C25F422E70020FE11 /* GGBaseCoordinator.swift in Sources */,
 				3FA9E52125F423340020FE11 /* UIKit-CoordinatingExtensions.swift in Sources */,
 				3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */,
 				3FE68D25277BE6A400C2B171 /* Navigation.swift in Sources */,
 				3FA9E51E25F423130020FE11 /* NavigationCoordinator.swift in Sources */,
 				3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */,
+				3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */,
+				3FEB5AA02798EE4700734C8D /* ViewCoded.swift in Sources */,
 				3F45051C2787F77F007874FF /* ActivityIndicator.swift in Sources */,
 				3F37B79525F0B5DA00523E28 /* Coordinating.swift in Sources */,
 			);
