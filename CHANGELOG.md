@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.5.0](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.5.0) - 2022-01-26
+### Added
+- GGSimpleBarChart - Add a small chart to help in situations where a small statement needs to be made
+
 ## [0.4.1](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.4.1) - 2022-01-13
 ### Fix
 - Navigation - Add equatable to fix tests 
