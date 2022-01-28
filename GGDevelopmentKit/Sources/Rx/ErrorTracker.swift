@@ -60,4 +60,12 @@ public extension ObservableType {
     func mapToVoid() -> Observable<Void> {
         return map { _ in }
     }
+    
+    func mapToTrue() -> Observable<Bool> {
+        return map { _ in true }
+    }
+    
+    func mapToFalse() -> Observable<Bool> {
+        return map { _ in false }
+    }
 }

@@ -36,6 +36,7 @@
 		3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */; };
 		3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */; };
 		3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */; };
+		3FF7558927A2E9DF007E8D6C /* GGBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7558827A2E9DF007E8D6C /* GGBaseView.swift */; };
 		669F1E16427316450629024B /* Pods_GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68FF80CDA7B03C79AE11CE5 /* Pods_GGDevelopmentKit.framework */; };
 		C3695CCA984883D0D76A8D14 /* Pods_Run.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7FC83E5D3BCD1A856BC5D8 /* Pods_Run.framework */; };
 		C8CCA625AF20018BBA03E8E2 /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6FBFEEFF8D516764DA26FD /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework */; };
@@ -107,6 +108,7 @@
 		3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGSimpleBarChart.swift; sourceTree = "<group>"; };
 		3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+UICollectionView.swift"; sourceTree = "<group>"; };
 		3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedSequence+Ext.swift"; sourceTree = "<group>"; };
+		3FF7558827A2E9DF007E8D6C /* GGBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGBaseView.swift; sourceTree = "<group>"; };
 		4E989043EC298397CC0F8E6E /* Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit-GGDevelopmentKitTests/Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F6FBFEEFF8D516764DA26FD /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		817CCCD6777962549232DF12 /* Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit-GGDevelopmentKitTests/Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				3FEB5A9C2798EE2400734C8D /* Protocols */,
 				3F849FE825F0B73200C7DDE7 /* Coordinator */,
 				3FB53CD2278CA68400802D19 /* Pagination */,
+				3FF7558527A2E9BC007E8D6C /* ViewController */,
 				3F4505162787F74C007874FF /* Rx */,
 			);
 			path = Sources;
@@ -338,6 +341,14 @@
 				3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */,
 			);
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		3FF7558527A2E9BC007E8D6C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FF7558827A2E9DF007E8D6C /* GGBaseView.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		FA529AF5C775113BF05CEA1B /* Pods */ = {
@@ -618,6 +629,7 @@
 				3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */,
 				3FEB5AA02798EE4700734C8D /* ViewCoded.swift in Sources */,
 				3F45051C2787F77F007874FF /* ActivityIndicator.swift in Sources */,
+				3FF7558927A2E9DF007E8D6C /* GGBaseView.swift in Sources */,
 				3F37B79525F0B5DA00523E28 /* Coordinating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
