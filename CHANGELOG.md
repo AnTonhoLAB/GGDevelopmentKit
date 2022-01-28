@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.6.0](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.6.0) - 2022-01-28
+### Added
+- GGAlertableViewController - Protocol to add a alert controller in ViewController
+- UIView extension - Created an UIView extension to add a loader in any view
+
 ## [0.5.0](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.5.0) - 2022-01-26
 ### Added
 - GGSimpleBarChart - Add a small chart to help in situations where a small statement needs to be made

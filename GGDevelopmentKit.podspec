@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '10.0'
   spec.name         = "GGDevelopmentKit"
-  spec.version      = "0.5.0"
+  spec.version      = "0.6.0"
   spec.module_name  = 'GGDevelopmentKit'
   spec.summary      = "All essential code for my applications"
 

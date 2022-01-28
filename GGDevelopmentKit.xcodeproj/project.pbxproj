@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F17762C27A4B62E008DC936 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17762B27A4B62E008DC936 /* UIView+Ext.swift */; };
 		3F37B76C25F0952500523E28 /* GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */; };
 		3F37B77125F0952500523E28 /* GGDevelopmentKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37B77025F0952500523E28 /* GGDevelopmentKitTests.swift */; };
 		3F37B77325F0952500523E28 /* GGDevelopmentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F37B76525F0952400523E28 /* GGDevelopmentKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,7 @@
 		3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */; };
 		3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */; };
 		3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */; };
+		3FF7558927A2E9DF007E8D6C /* GGAlertableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7558827A2E9DF007E8D6C /* GGAlertableViewController.swift */; };
 		669F1E16427316450629024B /* Pods_GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68FF80CDA7B03C79AE11CE5 /* Pods_GGDevelopmentKit.framework */; };
 		C3695CCA984883D0D76A8D14 /* Pods_Run.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7FC83E5D3BCD1A856BC5D8 /* Pods_Run.framework */; };
 		C8CCA625AF20018BBA03E8E2 /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6FBFEEFF8D516764DA26FD /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework */; };
@@ -75,6 +77,7 @@
 /* Begin PBXFileReference section */
 		1D098CD37B8AC04D78CE297E /* Pods-GGDevelopmentKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit.debug.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit/Pods-GGDevelopmentKit.debug.xcconfig"; sourceTree = "<group>"; };
 		2009F2DA3746762AE2AA4A2D /* Pods-GGDevelopmentKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit.release.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit/Pods-GGDevelopmentKit.release.xcconfig"; sourceTree = "<group>"; };
+		3F17762B27A4B62E008DC936 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGDevelopmentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F37B76525F0952400523E28 /* GGDevelopmentKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGDevelopmentKit.h; sourceTree = "<group>"; };
 		3F37B76625F0952400523E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,7 +101,7 @@
 		3FB53CD5278CA70500802D19 /* GGPaginationSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGPaginationSupport.swift; sourceTree = "<group>"; };
 		3FE68D1E277BE2D900C2B171 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		3FE68D24277BE6A400C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
-		3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GGDevelopmentKit.podspec; sourceTree = "<group>"; };
+		3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GGDevelopmentKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3FE68D4C277BECD200C2B171 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		3FE68D7A277E33AE00C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		3FEB5A9F2798EE4700734C8D /* ViewCoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoded.swift; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGSimpleBarChart.swift; sourceTree = "<group>"; };
 		3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+UICollectionView.swift"; sourceTree = "<group>"; };
 		3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedSequence+Ext.swift"; sourceTree = "<group>"; };
+		3FF7558827A2E9DF007E8D6C /* GGAlertableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGAlertableViewController.swift; sourceTree = "<group>"; };
 		4E989043EC298397CC0F8E6E /* Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit-GGDevelopmentKitTests/Pods-GGDevelopmentKit-GGDevelopmentKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F6FBFEEFF8D516764DA26FD /* Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGDevelopmentKit_GGDevelopmentKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		817CCCD6777962549232DF12 /* Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit-GGDevelopmentKitTests/Pods-GGDevelopmentKit-GGDevelopmentKitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +214,7 @@
 				3FEB5A9C2798EE2400734C8D /* Protocols */,
 				3F849FE825F0B73200C7DDE7 /* Coordinator */,
 				3FB53CD2278CA68400802D19 /* Pagination */,
+				3FF7558527A2E9BC007E8D6C /* ViewController */,
 				3F4505162787F74C007874FF /* Rx */,
 			);
 			path = Sources;
@@ -319,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				3FEB5AB52798F03100734C8D /* Double+Ext.swift */,
+				3F17762B27A4B62E008DC936 /* UIView+Ext.swift */,
 			);
 			path = Extenssions;
 			sourceTree = "<group>";
@@ -338,6 +344,14 @@
 				3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */,
 			);
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		3FF7558527A2E9BC007E8D6C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FF7558827A2E9DF007E8D6C /* GGAlertableViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		FA529AF5C775113BF05CEA1B /* Pods */ = {
@@ -605,6 +619,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F17762C27A4B62E008DC936 /* UIView+Ext.swift in Sources */,
 				3F3C6FD52788C83400628BC5 /* ErrorTracker.swift in Sources */,
 				3FB53CD6278CA70500802D19 /* GGPaginationSupport.swift in Sources */,
 				3FEB5AB62798F03100734C8D /* Double+Ext.swift in Sources */,
@@ -618,6 +633,7 @@
 				3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */,
 				3FEB5AA02798EE4700734C8D /* ViewCoded.swift in Sources */,
 				3F45051C2787F77F007874FF /* ActivityIndicator.swift in Sources */,
+				3FF7558927A2E9DF007E8D6C /* GGAlertableViewController.swift in Sources */,
 				3F37B79525F0B5DA00523E28 /* Coordinating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
