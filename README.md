@@ -1,7 +1,7 @@
 # README.md
 
 <p align="center">
-    <a href="https://github.com/AnTonhoLAB/GGDevelopmentKit/releases" target="_blank"><img src="https://img.shields.io/github/tag/AnTonhoLAB/GGDevelopmentKit.svg?label=current&color=blue" alt="Build Status" /></a>
+    <a href="https://github.com/AnTonhoLAB/GGDevelopmentKit/releases" target="_blank"><img src="https://img.shields.io/github/tag/AnTonhoLAB/GGDevelopmentKit.svg?label=pod&color=blue" alt="Build Status" /></a>
     <img src="https://github.com/AnTonhoLAB/GGDevelopmentKit/actions/workflows/Tests.yml/badge.svg" alt="building" />
     <br />
     <a href="https://codecov.io/github/AnTonhoLAB/GGDevelopmentKit?branch=master" alt="codecov.io" title="Codecov"><img src="https://codecov.io/github/AnTonhoLAB/GGDevelopmentKit/coverage.svg?branch=master" /></a>
