@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F101CE627AE11FD00EFC3DA /* Codable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F101CE527AE11FD00EFC3DA /* Codable+Ext.swift */; };
 		3F17762C27A4B62E008DC936 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17762B27A4B62E008DC936 /* UIView+Ext.swift */; };
 		3F37B76C25F0952500523E28 /* GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */; };
 		3F37B77125F0952500523E28 /* GGDevelopmentKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37B77025F0952500523E28 /* GGDevelopmentKitTests.swift */; };
@@ -26,6 +27,9 @@
 		3FA9E52325F423B10020FE11 /* GGDevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */; };
 		3FA9E52425F423B10020FE11 /* GGDevelopmentKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3FB53CD6278CA70500802D19 /* GGPaginationSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB53CD5278CA70500802D19 /* GGPaginationSupport.swift */; };
+		3FC5F38427B1DB540065C94C /* GGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5F38327B1DB540065C94C /* GGButton.swift */; };
+		3FC5F38A27B1DB730065C94C /* GGAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5F38927B1DB730065C94C /* GGAlertView.swift */; };
+		3FC5F39627B1DC220065C94C /* GGAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5F39527B1DC220065C94C /* GGAlertAction.swift */; };
 		3FE68D1F277BE2D900C2B171 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D1E277BE2D900C2B171 /* MainCoordinator.swift */; };
 		3FE68D25277BE6A400C2B171 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE68D24277BE6A400C2B171 /* Navigation.swift */; };
 		3FE68D2D277BEAF300C2B171 /* GGDevelopmentKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */; };
@@ -77,6 +81,7 @@
 /* Begin PBXFileReference section */
 		1D098CD37B8AC04D78CE297E /* Pods-GGDevelopmentKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit.debug.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit/Pods-GGDevelopmentKit.debug.xcconfig"; sourceTree = "<group>"; };
 		2009F2DA3746762AE2AA4A2D /* Pods-GGDevelopmentKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGDevelopmentKit.release.xcconfig"; path = "Target Support Files/Pods-GGDevelopmentKit/Pods-GGDevelopmentKit.release.xcconfig"; sourceTree = "<group>"; };
+		3F101CE527AE11FD00EFC3DA /* Codable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Ext.swift"; sourceTree = "<group>"; };
 		3F17762B27A4B62E008DC936 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		3F37B76225F0952400523E28 /* GGDevelopmentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGDevelopmentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F37B76525F0952400523E28 /* GGDevelopmentKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGDevelopmentKit.h; sourceTree = "<group>"; };
@@ -99,6 +104,9 @@
 		3FA9E51D25F423130020FE11 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		3FA9E52025F423340020FE11 /* UIKit-CoordinatingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit-CoordinatingExtensions.swift"; sourceTree = "<group>"; };
 		3FB53CD5278CA70500802D19 /* GGPaginationSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGPaginationSupport.swift; sourceTree = "<group>"; };
+		3FC5F38327B1DB540065C94C /* GGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGButton.swift; sourceTree = "<group>"; };
+		3FC5F38927B1DB730065C94C /* GGAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGAlertView.swift; sourceTree = "<group>"; };
+		3FC5F39527B1DC220065C94C /* GGAlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGAlertAction.swift; sourceTree = "<group>"; };
 		3FE68D1E277BE2D900C2B171 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		3FE68D24277BE6A400C2B171 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		3FE68D2C277BEAF300C2B171 /* GGDevelopmentKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GGDevelopmentKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -209,13 +217,9 @@
 		3F3C6F202788089300628BC5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3FEB5B022798F82900734C8D /* Charts */,
 				3FEB5AB42798F01B00734C8D /* Extenssions */,
-				3FEB5A9C2798EE2400734C8D /* Protocols */,
-				3F849FE825F0B73200C7DDE7 /* Coordinator */,
-				3FB53CD2278CA68400802D19 /* Pagination */,
+				3FC5F38027B1DAF10065C94C /* Components */,
 				3FF7558527A2E9BC007E8D6C /* ViewController */,
-				3F4505162787F74C007874FF /* Rx */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -267,6 +271,62 @@
 				3FB53CD5278CA70500802D19 /* GGPaginationSupport.swift */,
 			);
 			path = Pagination;
+			sourceTree = "<group>";
+		};
+		3FC5F38027B1DAF10065C94C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5F38227B1DB110065C94C /* Code */,
+				3FC5F38127B1DAF80065C94C /* Visuals */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3FC5F38127B1DAF80065C94C /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB5B022798F82900734C8D /* Charts */,
+				3FC5F39227B1DBC60065C94C /* GGAlert */,
+				3FC5F39B27B1DC690065C94C /* GGAlertableViewController */,
+				3FC5F39127B1DBBA0065C94C /* GGButton */,
+			);
+			path = Visuals;
+			sourceTree = "<group>";
+		};
+		3FC5F38227B1DB110065C94C /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB5A9C2798EE2400734C8D /* Protocols */,
+				3F849FE825F0B73200C7DDE7 /* Coordinator */,
+				3FB53CD2278CA68400802D19 /* Pagination */,
+				3F4505162787F74C007874FF /* Rx */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		3FC5F39127B1DBBA0065C94C /* GGButton */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5F38327B1DB540065C94C /* GGButton.swift */,
+			);
+			path = GGButton;
+			sourceTree = "<group>";
+		};
+		3FC5F39227B1DBC60065C94C /* GGAlert */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5F39527B1DC220065C94C /* GGAlertAction.swift */,
+				3FC5F38927B1DB730065C94C /* GGAlertView.swift */,
+			);
+			path = GGAlert;
+			sourceTree = "<group>";
+		};
+		3FC5F39B27B1DC690065C94C /* GGAlertableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FF7558827A2E9DF007E8D6C /* GGAlertableViewController.swift */,
+			);
+			path = GGAlertableViewController;
 			sourceTree = "<group>";
 		};
 		3FE68D13277BDF1100C2B171 /* Resources */ = {
@@ -325,6 +385,7 @@
 			children = (
 				3FEB5AB52798F03100734C8D /* Double+Ext.swift */,
 				3F17762B27A4B62E008DC936 /* UIView+Ext.swift */,
+				3F101CE527AE11FD00EFC3DA /* Codable+Ext.swift */,
 			);
 			path = Extenssions;
 			sourceTree = "<group>";
@@ -349,7 +410,6 @@
 		3FF7558527A2E9BC007E8D6C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3FF7558827A2E9DF007E8D6C /* GGAlertableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -624,10 +684,14 @@
 				3FB53CD6278CA70500802D19 /* GGPaginationSupport.swift in Sources */,
 				3FEB5AB62798F03100734C8D /* Double+Ext.swift in Sources */,
 				3FEB5AD82798F0D200734C8D /* Observable+Ext.swift in Sources */,
+				3FC5F38427B1DB540065C94C /* GGButton.swift in Sources */,
+				3FC5F39627B1DC220065C94C /* GGAlertAction.swift in Sources */,
 				3FA9E51C25F422E70020FE11 /* GGBaseCoordinator.swift in Sources */,
 				3FA9E52125F423340020FE11 /* UIKit-CoordinatingExtensions.swift in Sources */,
 				3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */,
 				3FE68D25277BE6A400C2B171 /* Navigation.swift in Sources */,
+				3F101CE627AE11FD00EFC3DA /* Codable+Ext.swift in Sources */,
+				3FC5F38A27B1DB730065C94C /* GGAlertView.swift in Sources */,
 				3FA9E51E25F423130020FE11 /* NavigationCoordinator.swift in Sources */,
 				3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */,
 				3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */,
@@ -738,7 +802,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -796,7 +860,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -821,7 +885,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GGDevelopmentKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -849,7 +913,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GGDevelopmentKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
