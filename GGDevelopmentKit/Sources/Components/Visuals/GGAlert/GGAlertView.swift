@@ -88,11 +88,12 @@ public final class GGAllertView: UIView, ViewCoded {
     }
     
     public func setupViewConfigs() {
-        self.layer.cornerRadius = 15
-        self.titleLabel.textAlignment = .center
-        self.titleLabel.font = titleFont
+        layer.cornerRadius = 15
+        titleLabel.textAlignment = .center
+        titleLabel.font = titleFont
         
         descriptionLabel.textAlignment = .center
+        descriptionLabel.numberOfLines = 0
     }
     
     public func setupConstraints() {
@@ -103,8 +104,8 @@ public final class GGAllertView: UIView, ViewCoded {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         descriptionLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 14).isActive = true
-        descriptionLabel.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-        descriptionLabel.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        descriptionLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 12).isActive = true
+        descriptionLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -12).isActive = true
         descriptionLabel.heightAnchor.constraint(greaterThanOrEqualToConstant: 30).isActive = true
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         
