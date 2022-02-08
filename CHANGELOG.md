@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.7.0](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.6.0) - 2022-02-07
+### Added
+- GGAlert - (GGAlertAction and GGAllertView) Alert view that doesn't stop changing the tabBar option to replace native option which prevents access to tabbar
+- GGButton - Add a custom buttom with background change color when tap
+
+### Changed
+- File reorganization
+
 ## [0.6.0](https://github.com/AnTonhoLAB/GGDevelopmentKit/releases/tag/0.6.0) - 2022-01-28
 ### Added
 - GGAlertableViewController - Protocol to add a alert controller in ViewController
