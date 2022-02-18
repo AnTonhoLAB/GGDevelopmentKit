@@ -219,7 +219,6 @@
 			children = (
 				3FEB5AB42798F01B00734C8D /* Extenssions */,
 				3FC5F38027B1DAF10065C94C /* Components */,
-				3FF7558527A2E9BC007E8D6C /* ViewController */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -405,13 +404,6 @@
 				3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */,
 			);
 			path = Charts;
-			sourceTree = "<group>";
-		};
-		3FF7558527A2E9BC007E8D6C /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		FA529AF5C775113BF05CEA1B /* Pods */ = {
