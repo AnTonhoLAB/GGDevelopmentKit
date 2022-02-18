@@ -46,6 +46,7 @@ public final class GGAllertView: UIView, ViewCoded {
         self.actions.append(action)
     }
     
+    // MARK: - Internal functions
     private func setup(actions: [GGAlertAction]) {
         stackActions.subviews.forEach { (view) in
             view.removeFromSuperview()
