@@ -39,6 +39,7 @@
 		3FEB5AB62798F03100734C8D /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5AB52798F03100734C8D /* Double+Ext.swift */; };
 		3FEB5AD82798F0D200734C8D /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5AD72798F0D200734C8D /* Observable+Ext.swift */; };
 		3FEB5B042798F84000734C8D /* GGSimpleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */; };
+		3FF5D6EC27C46840009F2DB2 /* GGButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5D6EB27C46840009F2DB2 /* GGButtonTests.swift */; };
 		3FF64128278F4125004CAC5B /* Rx+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */; };
 		3FF6412C278F41B1004CAC5B /* SharedSequence+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */; };
 		3FF7558927A2E9DF007E8D6C /* GGAlertableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7558827A2E9DF007E8D6C /* GGAlertableViewController.swift */; };
@@ -116,6 +117,7 @@
 		3FEB5AB52798F03100734C8D /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
 		3FEB5AD72798F0D200734C8D /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
 		3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGSimpleBarChart.swift; sourceTree = "<group>"; };
+		3FF5D6EB27C46840009F2DB2 /* GGButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGButtonTests.swift; sourceTree = "<group>"; };
 		3FF64127278F4125004CAC5B /* Rx+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+UICollectionView.swift"; sourceTree = "<group>"; };
 		3FF6412B278F41B1004CAC5B /* SharedSequence+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedSequence+Ext.swift"; sourceTree = "<group>"; };
 		3FF7558827A2E9DF007E8D6C /* GGAlertableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGAlertableViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 		3F37B76F25F0952500523E28 /* GGDevelopmentKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				3FF5D6E727C46708009F2DB2 /* Components */,
 				3F62A20B277F9CFC002A6C5C /* Coordinator */,
 				3FE68D77277E338400C2B171 /* Navigation */,
 				3F37B77025F0952500523E28 /* GGDevelopmentKitTests.swift */,
@@ -404,6 +407,22 @@
 				3FEB5B032798F84000734C8D /* GGSimpleBarChart.swift */,
 			);
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		3FF5D6E727C46708009F2DB2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5D6E827C46718009F2DB2 /* Visuals */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3FF5D6E827C46718009F2DB2 /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5D6EB27C46840009F2DB2 /* GGButtonTests.swift */,
+			);
+			path = Visuals;
 			sourceTree = "<group>";
 		};
 		FA529AF5C775113BF05CEA1B /* Pods */ = {
@@ -701,6 +720,7 @@
 				3F37B77125F0952500523E28 /* GGDevelopmentKitTests.swift in Sources */,
 				3FE68D7B277E33AE00C2B171 /* Navigation.swift in Sources */,
 				3F62A20D277F9D0C002A6C5C /* CoordinatorTests.swift in Sources */,
+				3FF5D6EC27C46840009F2DB2 /* GGButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
