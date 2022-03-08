@@ -28,15 +28,3 @@ extension Encodable {
         }
     }
 }
-
-//extension Decodable {
-//    static func encodeJson<T: Decodable>(from object: T) throws -> T {
-//        let decoder = JSONDecoder()
-//        do {
-//            let decoded = try decoder.decode(T.Type, from: self)
-//            return
-//        } catch {
-//            throw error
-//        }
-//    }
-//}
